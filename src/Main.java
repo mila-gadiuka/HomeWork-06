@@ -5,7 +5,6 @@ public class Main {
 
         System.out.println("Первая часть по теме циклы");
 
-
         System.out.println();
 
         System.out.println("Домашнее задание - 01");
