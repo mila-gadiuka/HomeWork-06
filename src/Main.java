@@ -195,9 +195,17 @@ public class Main {
 
         System.out.println("Первое задание");
 
-        //Я НЕ ЗНАЮ, КАК ЭТО ДЕЛАТЬ!
+        //Задание было не правильно понято из-за чего не имело ранее решения
+        int currentYear = 2022;
+        int minusTwoHundredYearsFromOurTime = currentYear - 200;
+        int plusAHundredYearsToOurTime = currentYear + 100;
+        for ( int year = 0;  year<plusAHundredYearsToOurTime; year+=79) {
+            if (year>minusTwoHundredYearsFromOurTime) {
+            System.out.println(year);
+            }
+        }
 
-        System.out.println("Второе задание (Вариация с do-while)"); // для повторения темы
+            System.out.println("Второе задание (Вариация с do-while)"); // для повторения темы
 
         int two = 2;
         int k = 0;
